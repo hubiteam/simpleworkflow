@@ -3,9 +3,9 @@
 Ce document décrit l'utilisation de github dans le cadre d'un workflow utilisant des pull request mais plus globalement fournit des solutions à divers problèmes
 
 ## Présentation général du workflow
-L'ensemble des développeur doit avoir les droits de pull et push sur le dépot.
+L'ensemble des développeurs doit avoir les droits de pull et push sur le dépot.
 Les développeurs doivent avoir une certaine rigeur notamment dans les messages de commits.
-La principal différence entre git et svn est le fait que dans git tout est décentralisé et le système de merging est très performant surtout avec plusieurs petits commits (il faut que les commit soient autosuffisants ceci dit)
+La principale différence entre git et svn est le fait que dans git tout est décentralisé et le système de merging est très performant surtout avec plusieurs petits commits (il faut que les commit soient autosuffisants ceci dit)
 Une autre différence avec svn est qu'il n'y a pas besoin d'être synchronisé en permanence avec le serveur. Donc plusieurs commit et seulement un push par jour ou plus uniquement si nécessaire (par exemple pour se synchroniser avec ses voisins)
 
 Le workflow repose sur l'utilisation de branches, de pull request, et de labels associées aux pull request
