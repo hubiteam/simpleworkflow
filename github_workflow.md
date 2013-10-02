@@ -32,7 +32,8 @@ Ici on va travailler avec une feature, mais la procédure est la même pour un b
 ```
 git pull    # Permet de récupérer les changements qui eu lieu sur le dépot sur les différentes branches, notament ceux de mes voisins 
 git checkout master # Je me place sur la branche principal, la branche master pour commencer ma nouvelle feature à partir du code le plus à jour
-git branch -b --track feature/feature1  # Je crée ma nouvelle branch et je demande qu'elle soit suivie au niveau git
+git checkout -b feature/feature1  # Je crée ma nouvelle branch 
+git push origin feature/feature1 # je demande que ma branche soit suivie au niveau du serveur distant
 ```
 
 A partir de la j'effectue des modifications de fichiers, une fois que j'estime que ça correspond à un premier commit, je commit
